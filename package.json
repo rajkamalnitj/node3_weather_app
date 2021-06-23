@@ -1,0 +1,23 @@
+{
+  "name": "nodejstelegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node1.js",
+  "scripts": {
+    "start": "forever start node1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "imdb-api": "^4.4.1",
+    "mongoose": "^5.12.13",
+    "railway-api": "^2.1.0",
+    "request": "^2.88.0",
+    "unirest": "^0.6.0",
+    "validator": "^10.0.0",
+    "yargs": "^17.0.1"
+  }
+}

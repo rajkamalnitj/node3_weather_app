@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+<style>
+
+
+
+  body{
+      
+   background-color: #E6E6FA;
+       background-image: url('imag1.jpg'); 
+
+      }
+.main-content
+{
+ background-color:#00203FFF;
+width:700px;
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 100px;
+height:300px;
+  padding-top: 60px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  z-index:3;
+box-sizing: border-box;
+}
+
+  p {color:blue;}
+
+  .id1{
+border:2px solid white;
+ height: 100px;
+  width: 100%;
+  background-color: powderblue;
+  font-size: 100px;
+  text-align: center;
+   padding-bottom: 15px;
+
+  }
+  #df
+  {
+      font-size: 15px;
+  }
+
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+a{
+color:white; text-decoration: none;
+margin:10px;
+}
+</style>
+
+
+</head>
+
+<body>
+
+
+    <div class="id1">
+weather app
+<img src="weather-app.png" alt="weather-icon" width="50" height="50">
+<P  id="df">created by rajkamal kumar</P>
+    </div>
+    <div class="main-content">
+    
+
+        <p>Use this site to get your weather!</p>
+
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+  <a href="home"> HOME </a> <!-- link to site -->
+<a href="about" > ABOUT </a> <!-- link to site -->
+<a href="help" > HELP </a> <!-- link to site -->
+
+  <script src="./client_side.js"></script>
+ 
+</body>
+
+</html>
