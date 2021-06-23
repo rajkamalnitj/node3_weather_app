@@ -4,7 +4,7 @@
   "description": "",
   "main": "node1.js",
   "scripts": {
-    "start": "forever start node1"
+    "start": "node util.js"
   },
   "author": "",
   "license": "ISC",
